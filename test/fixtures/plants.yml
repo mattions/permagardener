@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  sowing: 2012-09-24 14:42:22
+  blooming: 2012-09-24 14:42:22
+  harvesting: 2012-09-24 14:42:22
+
+two:
+  name: MyString
+  description: MyString
+  sowing: 2012-09-24 14:42:22
+  blooming: 2012-09-24 14:42:22
+  harvesting: 2012-09-24 14:42:22
