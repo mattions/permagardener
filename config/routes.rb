@@ -1,6 +1,10 @@
 Permagardener::Application.routes.draw do
   resources :plants
 
+  resources :plants do
+    resources :comments
+  end
+
   root :to => "home#index"
 
   # The priority is based upon order of creation:
