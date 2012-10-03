@@ -1,2 +1,13 @@
-<h1>Index page</h1>
-<p><%= link_to "Plants", plants_path %></p>
+
+<div class="span12">
+	<div class="hero-unit">
+        <h1>Permagardener</h1>
+        
+        <p class="lead">Record when they bloom, when it is time to harvest, and how many time you need 
+        	to water them</p>
+        <p><%= link_to 'Go to the plants already planted', 
+        		plants_path,
+        		{ :class=>"offset4 btn btn-large" }  
+        	%>
+  	</div>
+</div>
